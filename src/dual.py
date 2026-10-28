@@ -133,6 +133,9 @@ class Dual:
     >>> print(Dual(1, 2) + Dual(3, 4))
     4 + 6ε
     '''
+def __init__(self, v, d):
+    self.v = v
+    self.d = d
 
 
 def sin(x):
